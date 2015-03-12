@@ -114,7 +114,7 @@
 															<span class="lbl"> 记住我</span>
 														</label>
 
-														<button type="button" class="width-35 pull-right btn btn-sm btn-primary">
+														<button type="button" class="width-35 pull-right btn btn-sm btn-primary login">
 															<i class="icon-key"></i>
 															登陆
 														</button>
@@ -173,6 +173,11 @@
 			 jQuery('.widget-box.visible').removeClass('visible');
 			 jQuery('#'+id).addClass('visible');
 			}
+			$(document).ready(function(){
+				$(".login").click(function(){
+					window.location.href = "index.html"
+				})
+			})
 		</script>
 	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
